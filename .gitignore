@@ -1,0 +1,7 @@
+.venv
+# Exclude pip-editable specific directory
+**/*.egg-info/
+
+**/__pycache__
+
+.pytest_cache
