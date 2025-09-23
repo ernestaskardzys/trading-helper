@@ -34,3 +34,17 @@ To run tests, execute:
 ```
 pytest
 ```
+
+# Installing library
+
+To install library into your project, execute:
+
+```
+pip install git+https://github.com/ernestaskardzys/trading-helper.git
+```
+
+If you want, you can save all dependencies with:
+
+```
+pip freeze >> requirements.txt
+```
