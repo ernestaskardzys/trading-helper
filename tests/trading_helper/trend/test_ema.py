@@ -1,4 +1,3 @@
-import math
 from trading_helper.trend.ema import calculate_ema
 
 import pandas as pd
@@ -7,7 +6,7 @@ import numpy as np
 import unittest
 
 
-class TestSum(unittest.TestCase):
+class TestEma(unittest.TestCase):
 
     def test_when_series_is_empty_return_empty(self):
         df = pd.DataFrame()

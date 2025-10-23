@@ -5,7 +5,7 @@ import numpy as np
 
 from trading_helper.volatility.volatility import calculate_daily_volatility, calculate_monthly_volatility, calculate_yearly_volatility, expected_move_of_stock_based_on_iv, implied_volatility_to_expected_move
 
-class TestSum(unittest.TestCase):
+class TestVolatility(unittest.TestCase):
 
     def test_implied_volatility_to_expected_move(self):
         iv = 4.17

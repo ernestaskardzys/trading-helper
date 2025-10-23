@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "trading-helper"
-version = "0.0.2"
+version = "0.0.3"
 authors = [
   { name="Ernestas Kardzys", email="ernestas.kardzys@gmail.com" },
 ]
@@ -24,6 +24,7 @@ dependencies = [
     "ta>=0.11.0",
     "pytest>=8.4.2",
     "ib_insync>=0.9.86",
+    "scipy>=1.16.2",
 ]
 
 [tool.setuptools.packages.find]

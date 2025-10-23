@@ -5,7 +5,7 @@ import numpy as np
 
 from trading_helper.momentum.rsi import calculate_rsi
 
-class TestSum(unittest.TestCase):
+class TestRsi(unittest.TestCase):
 
     def test_when_series_is_empty_return_empty(self):
         series = pd.Series()
